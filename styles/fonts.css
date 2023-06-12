@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Clash-Display-Medium', sans-serif;
+    src: url('../assets/fonts/ClashDisplay-Medium.ttf') format('truetype');,
+    src: url('../assets/fonts/ClashDisplay-Medium.woff') format('woff');,
+    src: url('../assets/fonts/ClashDisplay-Medium.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'SFProDisplay-Regular', sans-serif;
+    src: url("../assets/fonts/SFProDisplay-Regular.ttf") format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}

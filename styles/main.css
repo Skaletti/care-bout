@@ -1,0 +1,60 @@
+@import "fonts.css";
+@import "header.css";
+@import "main-hero.css";
+@import "sections-styles/pricing.css";
+@import "sections-styles/process.css";
+@import "sections-styles/team.css";
+
+body {
+    font-family: 'SFProDisplay-Regular', sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.container {
+    max-width: 1216px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex {
+    display: flex
+}
+
+h2 {
+    font-family: 'Clash-Display-Medium', sans-serif;
+    font-size: 48px;
+    line-height: 100%;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+    .main-hero h2 {
+        max-width: 705px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 9px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        padding: 0 6px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 16px;
+    }
+}

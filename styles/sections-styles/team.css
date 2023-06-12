@@ -1,0 +1,79 @@
+.team {
+    margin-bottom: 96px;
+}
+
+.team-description {
+    max-width: 710px;
+    font-family: 'SFProDisplay-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    color: #999999;
+    margin-bottom: 32px;
+}
+
+.team-content {
+    display: flex;
+}
+.team-content__card {
+    padding: 32px;
+    background: #131313;
+    border: 1px solid #131313;
+}
+
+.team-content__card-block:first-child {
+    display: flex;
+}
+
+.team-content__card-image {
+    width: 64px;
+    height: 64px;
+    margin-right: 16px;
+}
+
+.team-content__contact-name {
+    font-family: 'Clash-Display-Medium', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 13px;
+}
+
+.team-content__contact-post {
+    font-family: 'Clash-Display-Medium', sans-serif;
+    font-size: 11px;
+    line-height: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid #363636;
+}
+
+@media screen and (max-width: 1024px) {
+    .team {
+        margin-bottom: 64px;
+    }
+    .team-description {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .team {
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+    .team {
+        margin-bottom: 24px;
+    }
+    .team-description {
+        margin-bottom: 16px;
+    }
+}

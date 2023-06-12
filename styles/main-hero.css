@@ -1,0 +1,95 @@
+.main-hero {
+    position: relative;
+    padding-top: 128px;
+    margin-bottom: 96px;
+}
+.main-hero__logo {
+    max-width: 330px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.main-hero__tagline {
+    font-family: 'SFProDisplay-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 16px;
+}
+
+.main-hero__description {
+    font-size: 16px;
+    line-height: 160%;
+    color: #999999;
+    text-align: start;
+    margin-bottom: 32px;
+}
+
+.description-list {
+    font-size: 14px;
+}
+
+.main-hero__button {
+    max-width: 210px;
+    width: 100%;
+    align-items: center;
+    padding: 16px 64px;
+    background: #CD1111;
+}
+
+.main-hero__button a {
+    font-family: 'Clash-Display-Medium', sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .main-hero {
+        margin-bottom: 64px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .main-hero {
+        margin-bottom: 32px;
+    }
+    .main-hero {
+        padding-top: 96px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 480px) {
+    .main-hero__tagline {
+        font-size: 14px;
+    }
+    .main-hero__description {
+        margin-bottom: 24px;
+        font-size: 14px;
+    }
+    .main-hero__button {
+        max-width: 480px;
+    }
+    .description-list {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main-hero {
+        padding-top: 86px;
+        margin-bottom: 24px;
+    }
+    .main-hero__logo {
+        max-width: 220px;
+    }
+    .main-hero__description {
+        margin-bottom: 16px;
+    }
+}

@@ -31,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Clash-Display-Medium', sans-serif;
+    font-family: 'Clash Display', sans-serif;
     font-size: 15px;
     line-height: 11px;
     width: 24px;
@@ -42,8 +42,13 @@
     background: #FFFFFF;
 }
 
+.process-content__block:last-child .process-content__block-element:last-child span {
+    background-color: #CD1111 ;
+    color: #FFFFFF;
+}
+
 .process-content__block-element p {
-    font-family: 'SFProDisplay-Regular', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     font-size: 14px;
     line-height: 120%;
 }

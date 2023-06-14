@@ -19,18 +19,23 @@ header {
 .header-logo {
     width: 100px;
 }
-.header-menu__list {
+.navigation-menu {
     display: flex;
     font-size: 16px;
     line-height: 120%;
 }
 
-.header-menu__list .header-menu__list-item:not(:last-child) {
+.navigation-menu .navigation-menu__item:not(:last-child) {
     margin-right: 64px;
 }
 
+.navigation-menu__item-link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1024px) {
-    .header-menu__list .header-menu__list-item:not(:last-child) {
+    .navigation-menu .navigation-menu__item:not(:last-child) {
         margin-right: 32px;
     }
 }

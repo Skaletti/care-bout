@@ -49,6 +49,10 @@ address {
     font-style: normal;
 }
 
+p {
+    margin: 0;
+}
+
 /* Form */
 
 input, textarea, button, select {

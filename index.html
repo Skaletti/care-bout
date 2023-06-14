@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
+
 </head>
 <body>
 <div class="container">
@@ -15,13 +16,37 @@
         <div class="header-content">
             <img class="header-logo" src="assets/care’bout-logo.svg" alt="care`bout">
             <nav class="header-menu">
-                <ul class="header-menu__list">
-                    <li class="header-menu__list-item">About us</li>
-                    <li class="header-menu__list-item">Pricing</li>
-                    <li class="header-menu__list-item">Launching Progress</li>
-                    <li class="header-menu__list-item">Team</li>
-                    <li class="header-menu__list-item">Referral program</li>
-                    <li class="header-menu__list-item">Jobs</li>
+                <ul class="navigation-menu">
+                    <li class="navigation-menu__item">
+                        <a href="#about-us" class="navigation-menu__item-link">
+                            About us
+                        </a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#pricing" class="navigation-menu__item-link">
+                            Pricing
+                        </a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#launching-progress" class="navigation-menu__item-link">
+                            Launching Progress
+                        </a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#team" class="navigation-menu__item-link">
+                            Team
+                        </a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#referral-program" class="navigation-menu__item-link">
+                            Referral program
+                        </a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#jobs" class="navigation-menu__item-link">
+                            Jobs
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -30,7 +55,7 @@
     <main>
         <div class="main-hero">
             <img class="main-hero__logo" src="assets/care’bout-logo.svg" alt="care`bout">
-            <h2>Customer Service for Community based brands</h2>
+            <h2 id="about-us">Customer Service for Community based brands</h2>
             <p class="main-hero__tagline">
                 We increase your brand product metrics by providing customer service for your users.
             </p>
@@ -48,7 +73,7 @@
         </div>
 
         <section class="pricing">
-            <h2>Flexible Pricing Options that Fit Your Needs</h2>
+            <h2 id="pricing">Flexible Pricing Options that Fit Your Needs</h2>
             <p class="pricing__description">
                 We understand that every business has unique needs and requirements, which is why we offer flexible
                 pricing options that can be tailored to meet the needs of your brand. Our pricing is based on the volume
@@ -108,7 +133,7 @@
         </section>
         <section class="process">
             <div class="process-line"></div>
-            <h2>Launching Process</h2>
+            <h2 id="launching-progress">Launching Process</h2>
             <div class="process-content">
                 <div class="process-content__block">
                     <div class="process-content__block-element">
@@ -131,7 +156,7 @@
                         </span>
                         <p>2 weeks - trainings for your team</p>
                     </div>
-                    <div class="process-content__block-element">
+                    <div class="process-content__block-element red">
                         <span>
                             4
                         </span>
@@ -143,7 +168,7 @@
         </section>
 
         <section class="team">
-            <h2>Meet Our Core Team</h2>
+            <h2 id="team">Meet Our Core Team</h2>
             <p class="team-description">
                 Our team combines extensive industry experience in Gambling&Dating with a passion for delivering
                 results. It's this passion that drives us to create effective customer support strategies that deliver
@@ -164,13 +189,31 @@
                             </span>
                         </div>
                     </div>
-                    <div class="team-contact__card-block">
-
+                    <div class="team-content__card-block">
+                        <ul class="team-content__list">
+                            <li class="team-content__list-item">
+                                One of Co-founders at Trustech (вставить сайт) - Outsourced Customer Support for Dating
+                                brands
+                            </li>
+                            <li class="team-content__list-item">
+                                More than 8 years of experience in Customer Support
+                            </li>
+                            <li class="team-content__list-item">
+                                Knows how to create an Outsorced Customer Support for each brand
+                            </li>
+                        </ul>
+                        <p class="team-content__card-description">
+                            Anette is keen on swimming and managed to swim through Bosphorus and to swim an Amateur
+                            World Championship. Now Anette is waiting for the approval for Gibraltar strait swim
+                        </p>
                     </div>
+                    <a href="#" class="team-content__card-link">
+                        LinkedIn
+                    </a>
                 </div>
                 <div class="team-content__card">
                     <div class="team-content__card-block">
-                        <img class="team-content__card-image" src="assets/Heinrich-Shneider.png" >
+                        <img class="team-content__card-image" src="assets/Heinrich-Shneider.png">
                         <div class="team-content__contact">
                             <span class="team-content__contact-name">
                                 Heinrich Shneider
@@ -180,7 +223,26 @@
                             </span>
                         </div>
                     </div>
-                    <div class="team-contact__card-block"></div>
+                    <div class="team-content__card-block">
+                        <ul class="team-content__list">
+                            <li class="team-content__list-item">
+                                One of Co-founders at Comillion - IT Outsource company
+                            </li>
+                            <li class="team-content__list-item">
+                                More than 7 years in Software Development
+                            </li>
+                            <li class="team-content__list-item">
+                                Knows how to automate up to 40% of your users requests, create a CRM for your brand
+                            </li>
+                        </ul>
+                        <p class="team-content__card-description">
+                            At his free time Heinrich tries to taste new cuisines and to find newest bars at Tbilisi
+                            with craft cocktails
+                        </p>
+                    </div>
+                    <a href="#" class="team-content__card-link">
+                        LinkedIn
+                    </a>
                 </div>
                 <div class="team-content__card">
                     <div class="team-content__card-block">
@@ -194,9 +256,80 @@
                             </span>
                         </div>
                     </div>
-                    <div class="team-contact__card-block"></div>
+                    <div class="team-content__card-block">
+                        <ul class="team-content__list">
+                            <li class="team-content__list-item">
+                                Managed to create General Support teams from scratch for several projects at Genesis
+                                (вставить сайт)
+                            </li>
+                            <li class="team-content__list-item">
+                                More than 7 years of experience in Operational Management
+                            </li>
+                            <li class="team-content__list-item">
+                                Knows how to scale the team x5 in 10 months without quality loses, decrease the
+                                chargeback&refund rate up to 0,5%, create a team for your brand in less then 2 weeks
+                            </li>
+                        </ul>
+                        <p class="team-content__card-description">
+                            Like to stay in healthy lifestyle and usually spends his weekends at gym or in a new
+                            coffeeshop tasting V60
+                        </p>
+                    </div>
+                    <a href="#" class="team-content__card-link">
+                        LinkedIn
+                    </a>
                 </div>
             </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="how-it-works__content">
+                <div class="how-it-works__content-block">
+                    <h3>Earn extra money with our <br> Referral program!</h3>
+                    <p>Care’bout is always happy to see new brands on board! We encourage our referrals to recommend
+                        Care’bout as the best option to outsource Customer Support and are happy to give bonuses for
+                        each new brand.
+                        Invite your friends and colleagues to sign up for Care'bout services and earn extra money with
+                        our Referral program. It's easy, just sign up and start getting money for each referral!</p>
+                </div>
+                <div class="how-it-works__content-block">
+                    <h2 id="referral-program">How it works?</h2>
+                    <ul class="how-it-works__list">
+                        <li class="how-it-works__list-item">
+                            <span>
+                                1
+                            </span>
+                            <p>
+                                You know the company that is potentially interested in building the Customer Support
+                                Department.
+                            </p>
+                        </li>
+                        <li class="how-it-works__list-item">
+                            <span>
+                                2
+                            </span>
+                            <p>
+                                You make an intro for us with this Company
+                            </p>
+                        </li>
+                        <li class="how-it-works__list-item">
+                            <span>
+                                3
+                            </span>
+                            <p>
+                                In case of the successful contract between Care’bout and the brand referred - we will be
+                                happy to pay bonuses for you
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="how-it-works__link">Set up a meeting with us to know more and get a referral
+                contract!
+            </a>
+        </section>
+        <section class="requirements">
+            <h2 id="jobs">Jobs and requirements</h2>
         </section>
     </main>
 </div>

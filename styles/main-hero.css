@@ -10,7 +10,7 @@
 }
 
 .main-hero__tagline {
-    font-family: 'SFProDisplay-Regular', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     font-size: 16px;
     line-height: 120%;
     margin-bottom: 16px;
@@ -37,7 +37,7 @@
 }
 
 .main-hero__button a {
-    font-family: 'Clash-Display-Medium', sans-serif;
+    font-family: 'Clash Display', sans-serif;
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;

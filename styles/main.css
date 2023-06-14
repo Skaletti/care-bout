@@ -4,14 +4,15 @@
 @import "sections-styles/pricing.css";
 @import "sections-styles/process.css";
 @import "sections-styles/team.css";
+@import "sections-styles/how-it-works.css";
 
 body {
-    font-family: 'SFProDisplay-Regular', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     background-color: #000000;
     color: #FFFFFF;
 }
 .container {
-    max-width: 1216px;
+    max-width: 1256px;
     width: 100%;
     margin: 0 auto;
     padding: 0 20px;
@@ -22,7 +23,7 @@ body {
 }
 
 h2 {
-    font-family: 'Clash-Display-Medium', sans-serif;
+    font-family: 'Clash Display', sans-serif;
     font-size: 48px;
     line-height: 100%;
     margin-bottom: 24px;

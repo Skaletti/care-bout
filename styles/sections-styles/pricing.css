@@ -40,20 +40,20 @@
 }
 .pricing-content__card-title {
     display: block;
-    font-family: 'Clash-Display-Medium', sans-serif;
+    font-family: 'Clash Display', sans-serif;
     font-size: 24px;
     margin-bottom: 16px;
 }
 
 .pricing-content__card-description {
-    font-family: 'SFProDisplay-Regular', sans-serif;
+    font-family: 'SF Pro Display', sans-serif;
     font-size: 16px;
     line-height: 160%;
     margin-bottom: 24px;
 }
 
 .pricing-content__card-link {
-    font-family: 'Clash-Display-Medium', sans-serif;
+    font-family: 'Clash Display', sans-serif;
     font-size: 16px;
     line-height: 11px;
     color: #FFFFFF;

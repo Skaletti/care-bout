@@ -17,15 +17,30 @@
     column-gap: 20px;
 }
 
-.pricing-content .pricing-content__block:first-child {
+.pricing-content__block:first-child {
     max-width: 804px;
     width: 100%;
 }
 
+.pricing-content__block:first-child .pricing-content__card{
+    max-width: 392px;
+    width: 100%;
+}
 
 .pricing-content__block {
     display: flex;
     column-gap: 20px;
+}
+
+.pricing-content__block:last-child {
+    max-width: 33%;
+    width: 100%;
+}
+
+.pricing-content__block:last-child .pricing-content__card {
+    max-width: 392px;
+    width: 100%;
+    border: 1px solid #FFFFFF;
 }
 
 .pricing-content__card {
@@ -35,9 +50,7 @@
     height: fit-content;
     width: 100%;
 }
-.pricing-content__card:hover {
-    border: 1px solid #FFFFFF;
-}
+
 .pricing-content__card-title {
     display: block;
     font-family: 'Clash Display', sans-serif;
@@ -78,6 +91,17 @@
         max-width: 900px;
         width: 100%;
     }
+    .pricing-content__block:last-child {
+        max-width: none;
+        width: 100%;
+    }
+
+    .pricing-content__block:last-child .pricing-content__card {
+        max-width: none;
+        width: 100%;
+        border: 1px solid #FFFFFF;
+    }
+
     .pricing-content__card {
         display: flex;
         flex-direction: column;

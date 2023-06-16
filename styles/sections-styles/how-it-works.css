@@ -21,6 +21,10 @@
     width: 100%;
 }
 
+.how-it-works__content-block {
+    margin-bottom: 32px;
+}
+
 .how-it-works__content-block:first-child {
     margin: 0 32px 0 0;
 }
@@ -112,6 +116,7 @@
 
     .how-it-works__content-block {
         max-width: 192px;
+        margin-bottom: 24px;
     }
 
     .how-it-works__content-block p {

@@ -49,6 +49,7 @@
     padding: 32px;
     border: 1px solid #131313;
     background: #131313;
+    margin-bottom: 100px;
 }
 
 .requirements-tab__content-title {
@@ -111,6 +112,10 @@
     .requirements-description {
         max-width: none;
     }
+
+    .requirements-tab__content {
+        margin-bottom: 69px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -123,6 +128,10 @@
 @media screen and (max-width: 768px) {
     .requirements h2 {
         font-size: 36px;
+    }
+
+    .requirements-tab__content {
+        margin-bottom: 37px;
     }
 }
 
@@ -141,6 +150,10 @@
         max-width: 100%;
 
     }
+
+    .requirements-tab__content {
+        margin-bottom: 35px;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -158,6 +171,7 @@
 
     .requirements-tab__content {
         padding: 16px;
+        margin-bottom: 24px;
     }
 
     .requirements-tab__content-title {

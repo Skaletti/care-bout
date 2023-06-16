@@ -5,6 +5,7 @@
 @import "sections-styles/process.css";
 @import "sections-styles/team.css";
 @import "sections-styles/how-it-works.css";
+@import "sections-styles/requirements.css";
 
 body {
     font-family: 'SF Pro Display', sans-serif;
@@ -14,7 +15,7 @@ body {
 .container {
     max-width: 1256px;
     width: 100%;
-    margin: 0 auto;
+    margin: 128px auto 0 auto;
     padding: 0 20px;
 }
 

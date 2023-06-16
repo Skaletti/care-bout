@@ -1,6 +1,5 @@
 .main-hero {
     position: relative;
-    padding-top: 128px;
     margin-bottom: 96px;
 }
 .main-hero__logo {
@@ -49,15 +48,11 @@
     .main-hero {
         margin-bottom: 64px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
     .main-hero {
         margin-bottom: 32px;
-    }
-    .main-hero {
-        padding-top: 96px;
     }
 }
 
@@ -83,7 +78,6 @@
 
 @media screen and (max-width: 320px) {
     .main-hero {
-        padding-top: 86px;
         margin-bottom: 24px;
     }
     .main-hero__logo {

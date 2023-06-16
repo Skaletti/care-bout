@@ -1,19 +1,166 @@
 .requirements {
 
 }
+.requirements h2 {
+    font-family: "Clash Display", sans-serif;
+    font-size: 48px;
+    line-height: 100%;
+}
+
+.requirements-description {
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    color: #999999;
+    max-width: 701px;
+    margin-bottom: 24px;
+}
+
+.requirements-tab {
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 32px;
+    column-gap: 24px;
+}
+
+.requirements-tab button {
+    font-family: "Clash Display", sans-serif;
+    line-height: 120%;
+    font-size: 16px;
+    color: #999999;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 16px;
+    transition: 0.3s;
+    border: 1px solid #363636;
+}
+
+.requirements-tab button:hover {
+    color: #FFFFFF;
+}
+
+.requirements-tab button.active {
+    color: #FFFFFF;
+}
+
+.requirements-tab__content {
+    display: none;
+    padding: 32px;
+    border: 1px solid #131313;
+    background: #131313;
+}
+
+.requirements-tab__content-title {
+    font-family: "Clash Display", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.requirements-tab__content-description {
+    margin: 16px 0;
+}
+
+.requirements-tab__content-link {
+    display: block;
+    font-family: "Clash Display", sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    border: 1px solid #82BE81;
+    color: #82BE81;
+    max-width: fit-content;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+}
+
+.requirements-tab__content-resume {
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.requirements-tab__content-resume p{
+    margin-bottom: 4px;
+}
+
+.requirements-tab__content-resume ul {
+    padding-left: 20px;
+    line-height: 18px;
+}
+
+.requirements-tab__content-resume ul li {
+    list-style: disc;
+}::marker {
+    font-size: 10px;
+ }
+
+ .requirements-tab__content-afterword {
+     font-family: "SF Pro Display", sans-serif;
+     font-size: 14px;
+     line-height: 120%;
+     margin-top: 24px;
+ }
+
+ .requirements-tab__content-afterword a {
+     color: #CD1111;
+     border-bottom: 1px #CD1111 solid;
+ }
+
 
 @media screen and (max-width: 1024px) {
+    .requirements-description {
+        max-width: none;
+    }
+}
 
+@media screen and (max-width: 800px) {
+    .requirements-tab {
+        flex-wrap: wrap;
+        row-gap: 24px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-
+    .requirements h2 {
+        font-size: 36px;
+    }
 }
 
 @media screen and (max-width: 480px) {
+    .requirements-tab {
+        margin-bottom: 24px;
+        column-gap: 8px;
+        row-gap: 8px;
+    }
 
+    .requirements-tab__content-link {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+
+    }
 }
 
 @media screen and (max-width: 320px) {
+    .requirements h2 {
+        font-size: 20px;
+    }
 
+    .requirements-description {
+        margin-bottom: 16px;
+    }
+
+    .requirements-tab {
+        margin-bottom: 16px;
+    }
+
+    .requirements-tab__content {
+        padding: 16px;
+    }
+
+    .requirements-tab__content-title {
+        font-size: 20px;
+    }
 }

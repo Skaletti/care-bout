@@ -1,10 +1,14 @@
 header {
-    position: absolute;
+    position: fixed;
     background: rgba(19, 19, 19, 0.3);
     border-bottom: 1px solid #363636;
     backdrop-filter: blur(50px);
+    top: 0;
     left: 0;
+    z-index: 999;
     width: 100%;
+    margin-bottom: 64px;
+    border-bottom: 1px solid #363636;
 }
 .header-content {
     position: relative;
@@ -41,7 +45,9 @@ header {
 }
 
 @media screen and (max-width: 768px) {
-
+    header {
+        margin-bottom: 32px;
+    }
 }
 
 @media screen and (max-width: 767px) {

@@ -8,50 +8,48 @@
 
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css">
-
 </head>
 <body>
+<header>
+    <div class="header-content">
+        <img class="header-logo" src="assets/care’bout-logo.svg" alt="care`bout">
+        <nav class="header-menu">
+            <ul class="navigation-menu">
+                <li class="navigation-menu__item">
+                    <a href="#about-us" class="navigation-menu__item-link">
+                        About us
+                    </a>
+                </li>
+                <li class="navigation-menu__item">
+                    <a href="#pricing" class="navigation-menu__item-link">
+                        Pricing
+                    </a>
+                </li>
+                <li class="navigation-menu__item">
+                    <a href="#launching-progress" class="navigation-menu__item-link">
+                        Launching Progress
+                    </a>
+                </li>
+                <li class="navigation-menu__item">
+                    <a href="#team" class="navigation-menu__item-link">
+                        Team
+                    </a>
+                </li>
+                <li class="navigation-menu__item">
+                    <a href="#referral-program" class="navigation-menu__item-link">
+                        Referral program
+                    </a>
+                </li>
+                <li class="navigation-menu__item">
+                    <a href="#jobs" class="navigation-menu__item-link">
+                        Jobs
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
 <div class="container">
-    <header>
-        <div class="header-content">
-            <img class="header-logo" src="assets/care’bout-logo.svg" alt="care`bout">
-            <nav class="header-menu">
-                <ul class="navigation-menu">
-                    <li class="navigation-menu__item">
-                        <a href="#about-us" class="navigation-menu__item-link">
-                            About us
-                        </a>
-                    </li>
-                    <li class="navigation-menu__item">
-                        <a href="#pricing" class="navigation-menu__item-link">
-                            Pricing
-                        </a>
-                    </li>
-                    <li class="navigation-menu__item">
-                        <a href="#launching-progress" class="navigation-menu__item-link">
-                            Launching Progress
-                        </a>
-                    </li>
-                    <li class="navigation-menu__item">
-                        <a href="#team" class="navigation-menu__item-link">
-                            Team
-                        </a>
-                    </li>
-                    <li class="navigation-menu__item">
-                        <a href="#referral-program" class="navigation-menu__item-link">
-                            Referral program
-                        </a>
-                    </li>
-                    <li class="navigation-menu__item">
-                        <a href="#jobs" class="navigation-menu__item-link">
-                            Jobs
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
     <main>
         <div class="main-hero">
             <img class="main-hero__logo" src="assets/care’bout-logo.svg" alt="care`bout">
@@ -330,8 +328,71 @@
         </section>
         <section class="requirements">
             <h2 id="jobs">Jobs and requirements</h2>
+            <p class="requirements-description">
+                CareBout is a team of professionals in Customer Support who are willing to make the best Customer
+                Service for their client. We know how Customer Service could be important for brands and know how to
+                build it in the most efficient way.
+            </p>
+
+            <div class="requirements-tab">
+                <button class="requirements-tab__link" onclick="openCity(event, 'Account')">Account Manager</button>
+                <button class="requirements-tab__link" onclick="openCity(event, 'Client')">Client Retention Specialist
+                </button>
+                <button class="requirements-tab__link" onclick="openCity(event, 'Seller')">Seller</button>
+                <button class="requirements-tab__link" onclick="openCity(event, 'Support')">Support staff member
+                </button>
+            </div>
+
+            <div id="Account" class="requirements-tab__content">
+                <h3>Account</h3>
+                <p></p>
+            </div>
+
+            <div id="Client" class="requirements-tab__content">
+                <h3>Client</h3>
+                <p></p>
+            </div>
+
+            <div id="Seller" class="requirements-tab__content">
+                <h3 class="requirements-tab__content-title">Customer Support Agent</h3>
+                <p class="requirements-description requirements-tab__content-description">We are hiring Customer Support Agents to join our growing team remotely. We are looking for someone
+                    who is dedicated to providing a best-in-class experience to our customers.
+                </p>
+                <a href="#" class="requirements-tab__content-link">Position open</a>
+                <div class="requirements-tab__content-resume">
+                    <p>Main responsibilities of Customer Support Agent:</p>
+                    <ul>
+                        <li>Dealing directly with customers by live chat and emails (e.g. online chat and email)</li>
+                        <li>Handling and resolving customer queries</li>
+                        <li>Directing requests and unresolved issues to the appropriate person</li>
+                    </ul>
+                    <p>Few musts:</p>
+                    <ul>
+                        <li>Be fluent in written and spoken English</li>
+                        <li>At least 1 year of experience in Customer Support</li>
+                        <li>Be happy to work different shifts</li>
+                    </ul>
+
+                    <p>Also about our perfect candidate:</p>
+                    <ul>
+                        <li>You are super excited about startups and the chance of being at the very-very start of it</li>
+                        <li>You are ambitious and willing to have a high career growth in the future (we consider this person to be Supervisor/Team Leader in the future)</li>
+                        <li>You are ready to be a person who will be helping to build CS Department from scratch</li>
+                    </ul>
+                </div>
+
+                <p class="requirements-tab__content-afterword">Are you interested? If you say “I’m in! I wanna start my startup career right now” - please contact us via <a>jobs@carebout.com</a></p>
+            </div>
+
+            <div id="Support" class="requirements-tab__content">
+                <h3>Support</h3>
+                <p></p>
+            </div>
+
         </section>
     </main>
 </div>
+
+<script src="./scripts/tabs.js"/>
 </body>
 </html>

@@ -72,7 +72,6 @@
     font-family: 'Clash Display', sans-serif;
     font-size: 16px;
     padding: 16px;
-    background: #FFFFFF;
     color: #131313;
     text-decoration: none;
     display: flex;
@@ -81,6 +80,20 @@
     align-items: center;
     text-align: center;
     width: 100%;
+    border: 1px #FFFFFF solid;
+
+    background-color: #FFFFFF;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+}
+
+.how-it-works__link:hover {
+    background-size: 100% 100%;
+    background-image: linear-gradient(#131313, #131313);
+    color: #FFFFFF;
+    border: 1px #FFFFFF solid;
 }
 
 

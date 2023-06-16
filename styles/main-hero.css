@@ -56,21 +56,33 @@
     display: block;
 }
 
-.main-hero__button {
+.main-hero__button-link {
+    position: relative;
+    display: inline-block;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 16px;
+    line-height: 120%;
+    text-decoration: none;
     max-width: 210px;
     width: 100%;
     align-items: center;
     padding: 16px 64px;
-    background: #CD1111;
+    color: #FFFFFF;
+    background-color: #CD1111;
+    background-image: linear-gradient(#CD1111, #CD1111);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
 }
 
-.main-hero__button a {
-    font-family: 'Clash Display', sans-serif;
-    font-size: 16px;
-    line-height: 120%;
-    color: #FFFFFF;
-    text-decoration: none;
+.main-hero__button-link:hover {
+    background-size: 100% 100%;
+    background-image: linear-gradient(#FFFFFF, #FFFFFF);
+    color: #CD1111;
 }
+
+
 
 
 @media screen and (max-width: 1024px) {
@@ -117,7 +129,7 @@
         font-size: 14px;
     }
 
-    .main-hero__button {
+    .main-hero__button-link {
         max-width: 480px;
     }
 

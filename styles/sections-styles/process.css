@@ -68,6 +68,18 @@
     border: 1px solid #FFFFFF;
     max-width: fit-content;
     margin-left: auto;
+
+    background-color: inherit;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size .5s, color .5s;
+}
+
+.process-link:hover {
+    background-size: 100% 100%;
+    background-image: linear-gradient(#FFFFFF, #FFFFFF);
+    color: #000000;
 }
 
 @media screen and (max-width: 1024px) {

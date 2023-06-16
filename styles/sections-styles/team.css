@@ -79,12 +79,18 @@
     padding-left: 20px;
     margin-bottom: 24px;
 }
+
 .team-content__list-item {
     list-style-type: disc;
     font-family: 'SF Pro Display', sans-serif;
     font-size: 14px;
     line-height: 120%;
 }
+
+.team-content__list-item a {
+    color: #CD1111;
+}
+
 .team-content__card-description {
     font-family: 'SF Pro Display', sans-serif;
     font-size: 14px;
@@ -93,6 +99,7 @@
     padding-top: 16px;
     border-top: 1px solid #363636;
 }
+
 .team-content__card-link {
     display: flex;
     flex-direction: row;

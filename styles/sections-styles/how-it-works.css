@@ -12,13 +12,12 @@
 }
 
 .how-it-works__content {
-    display: flex;
+    display: block;
     justify-content: space-between;
     margin-bottom: 32px;
 }
 
 .how-it-works__content-block {
-    max-width: 480px;
     width: 100%;
 }
 

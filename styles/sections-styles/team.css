@@ -39,9 +39,16 @@
 }
 
 .team-content__card-image {
-    width: 64px;
-    height: 64px;
+    width: 80px;
+    height: 80px;
     margin-right: 16px;
+}
+
+.team-content__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .team-content__contact-name {
@@ -57,11 +64,15 @@
     font-size: 11px;
     line-height: 12px;
     display: flex;
+    font-size: 16px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 12px 16px;
+    line-height: 100%;
     border: 1px solid #363636;
+    max-width: fit-content;
+    width: 100%;
 }
 
 .team-content__list {
@@ -79,14 +90,26 @@
     font-size: 14px;
     line-height: 120%;
     width: 100%;
+    padding-top: 16px;
+    border-top: 1px solid #363636;
 }
 .team-content__card-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.team-content__card-link img{
+    margin-right: 11px;
+}
+
+.team-content__card-link a{
     font-family: 'SF Pro Display', sans-serif;
     font-size: 14px;
     line-height: 120%;
     color: #CD1111;
-    display: block;
-    margin-top: 24px;
+    border-bottom: 1px #CD1111 solid;
 }
 
 @media screen and (max-width: 1024px) {
@@ -102,25 +125,43 @@
     .team {
         margin-bottom: 32px;
     }
+
+    .team-content__contact {
+        width: 100%;
+    }
+
+    .team-content__contact-post {
+        max-width: none;
+    }
+
     .team-content {
         flex-wrap: wrap;
     }
+
     .team-content__card:not(:last-child) {
         margin: 0 0 20px 0;
     }
 }
 
 @media screen and (max-width: 480px) {
-
+    .team-content__card {
+        padding: 24px;
+    }
 }
 
 @media screen and (max-width: 320px) {
     .team {
         margin-bottom: 24px;
     }
+
     .team-description {
         margin-bottom: 16px;
     }
+
+    .team-content__card {
+        padding: 16px;
+    }
+
     .team-content__card:not(:last-child) {
         margin: 0 0 16px 0;
     }

@@ -52,6 +52,10 @@
     margin-bottom: 100px;
 }
 
+.requirements-tab__content-active {
+    display: block;
+}
+
 .requirements-tab__content-title {
     font-family: "Clash Display", sans-serif;
     font-size: 24px;

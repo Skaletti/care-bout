@@ -80,6 +80,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 0% 100%;
+    background-image: linear-gradient(#FFFFFF, #FFFFFF);
     transition: background-size .5s, color .5s;
 }
 
@@ -147,6 +148,10 @@
     }
     .pricing-content__card-description {
         font-size: 14px;
+    }
+
+    .pricing-content__block:first-child .pricing-content__card {
+        max-width: none;
     }
 }
 

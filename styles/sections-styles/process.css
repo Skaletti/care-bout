@@ -73,6 +73,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 0% 100%;
+    background-image: linear-gradient(#FFFFFF, #FFFFFF);
     transition: background-size .5s, color .5s;
 }
 

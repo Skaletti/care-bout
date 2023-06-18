@@ -86,6 +86,7 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 0% 100%;
+    background-image: linear-gradient(#131313, #131313);
     transition: background-size .5s, color .5s;
 }
 
@@ -101,20 +102,12 @@
     .how-it-works {
         margin-bottom: 64px;
     }
-
-    .how-it-works__content-block {
-        max-width: 352px;
-    }
 }
 
 @media screen and (max-width: 768px) {
     .how-it-works {
         margin-bottom: 32px;
         padding: 32px;
-    }
-
-    .how-it-works__content-block {
-        max-width: 322px;
     }
 }
 
@@ -128,7 +121,6 @@
     }
 
     .how-it-works__content-block {
-        max-width: 192px;
         margin-bottom: 24px;
     }
 

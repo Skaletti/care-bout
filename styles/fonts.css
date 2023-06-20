@@ -9,8 +9,8 @@ src: url('../assets/fonts/ClashDisplay-Medium.woff2') format('woff2');,
 }
 
 @font-face {
-    font-family: 'SF Pro Display';
-    src: url("../assets/fonts/SFProDisplay-Regular.ttf") format('truetype');
+    font-family: 'Inter Regular';
+    src: url("../assets/fonts/Inter-Regular.ttf") format('truetype');
     font-style: normal;
     font-weight: 400;
 }

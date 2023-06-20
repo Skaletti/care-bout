@@ -9,7 +9,7 @@
 }
 
 .main-hero__tagline {
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     line-height: 120%;
     margin-bottom: 16px;
@@ -42,8 +42,8 @@
     font-family: "Clash Display", sans-serif;
     font-size: 16px;
     line-height: 120%;
-    color: #131313;
-    background: #FFFFFF;
+    color: #FFFFFF;
+    background: #CD1111;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,13 +55,8 @@
     margin-right: 16px;
 }
 
-.main-hero__list-item:last-child span{
-    color: #FFFFFF;
-    background: #CD1111;
-}
-
 .main-hero__list-item p{
-    font-family: "SF Pro Display", sans-serif;
+    font-family: "Inter Regular", sans-serif;
     font-size: 16px;
     line-height: 120%;
     color: #FFFFFF;

@@ -48,7 +48,7 @@
 }
 
 .process-content__block-element p {
-    font-family: 'SF Pro Display', sans-serif;
+    font-family: 'Inter Regular', sans-serif;
     font-size: 16px;
     line-height: 120%;
 }
@@ -65,6 +65,7 @@
     font-size: 16px;
     display: flex;
     padding: 16px 64px;
+    color: #FFFFFF;
     border: 1px solid #FFFFFF;
     max-width: fit-content;
     margin-left: auto;
